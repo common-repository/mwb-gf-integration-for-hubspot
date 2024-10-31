@@ -1,0 +1,46 @@
+{
+	"subject": {
+	  "name"    : "subject",
+	  "label"   : "Subject",
+	  "type"    : "Text",
+	  "required": false,
+      "custom"  : false
+	},
+
+	"description": {
+	  "name"    : "description",
+	  "label"   : "Description",
+	  "type"    : "Text",
+	  "required": true,
+      "custom"  : false
+	},
+	
+	"timestamp": {
+	  "name"    : "timestamp",
+	  "label"   : "Due Date",
+	  "type"    : "Datetime",
+	  "required": false,
+      "custom"  : false
+	},
+
+	"status": {
+		"name"    : "status",
+		"label"   : "Status",
+		"type"    : "Text",
+		"required": false,
+		"custom"  : false,
+		"example" : ["NOT_STARTED, COMPLETED, IN_PROGRESS, WAITING, DEFERRED"],
+		"options" : ["NOT_STARTED, COMPLETED, IN_PROGRESS, WAITING, DEFERRED"]
+	},
+
+	"forObjectType": {
+		"name"    : "forObjectType",
+		"label"   : "For Object Type",
+		"type"    : "Text",
+		"required": false,
+		"custom"  : false,
+		"example" : ["CONTACT, COMPANY"],
+		"options" : ["CONTACT, COMPANY"]
+	}
+    
+}

@@ -1,0 +1,49 @@
+{
+    "mwb_gf_hs_consent": {
+      "name"    : "mwb_gf_hs_consent",
+      "label"   : "GDPR Consent",
+      "type"    : "Boolean",
+      "required": false,
+      "custom"  : false
+    },
+
+    "mwb_gf_hs_url": {
+      "name"    : "mwb_gf_hs_url",
+      "label"   : "Page URL",
+      "type"    : "URL",
+      "required": false,
+      "custom"  : false
+    },
+
+    "mwb_gf_hs_title": {
+      "name"    : "mwb_gf_hs_title",
+      "label"   : "Page Title",
+      "type"    : "Text",
+      "required": false,
+      "custom"  : false
+    },
+
+    "mwb_gf_hs_camp_id": {
+      "name"    : "mwb_gf_hs_camp_id",
+      "label"   : "SFDC Campaign ID",
+      "type"    : "Text",
+      "required": false,
+      "custom"  : false
+    },
+
+    "mwb_gf_hs_webinar_key": {
+      "name"    : "mwb_gf_hs_webinar_key",
+      "label"   : "GoToWebinar key",
+      "type"    : "Text",
+      "required": false,
+      "custom"  : false
+    },
+
+    "mwb_gf_hs_ip": {
+      "name"    : "mwb_gf_hs_ip",
+      "label"   : "IP Address",
+      "type"    : "Text",
+      "required": false,
+      "custom"  : false
+    }
+}
